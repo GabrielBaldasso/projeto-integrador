@@ -36,14 +36,24 @@ Muitos salões ainda utilizam métodos tradicionais de agendamento, como WhatsAp
 - **RF005:** Exibição de informações do salão e mapa integrado.
 - **RF006:** Notificações para clientes e profissionais.
 - **RF007:** Histórico de atendimentos para os profissionais.
+- **RF008:** Cadastro de tipo profissional (nome e descrição) **(somente administradores ou profissionais podem cadastrar tipos profissionais)**.
+- **RF009:** Alteração de tipo profissional (nome e descrição) **(somente administradores podem alterar tipos profissionais)**.
+- **RF010:** Exclusão de tipo profissional **(somente administradores podem excluir tipos profissionais)**.
+- **RF011:** Cadastro de serviço (nome, descrição e tempo estimado) **(somente profissionais ou administradores podem cadastrar serviços)**.
+- **RF012:** Alteração de serviço (nome, descrição e tempo estimado) **(somente administradores podem alterar serviços)**.
+- **RF013:** Exclusão de serviço **(somente administradores podem excluir serviços)**.
+- **RF014:** Cadastro de atendimento (cliente, tipo de pagamento, preço total, horário inicial e descrição).
+- **RF015:** Alteração de atendimento (cliente, tipo de pagamento, preço total, horário inicial e descrição).
+- **RF016:** Exclusão de atendimento.
+- **RF017:** Vinculação de serviço com profissional (profissional, serviço e preço cobrado pelo serviço) **(somente profissionais ou administradores podem cadastrar vinculações)**.
+- **RF018:** Cadastro de tipo de pagamento (nome e descrição) **(somente administradores podem cadastrar tipos de pagamento)**.
+- **RF019:** Alteração de tipo de pagamento (nome e descrição) **(somente administradores podem alterar tipos de pagamento)**.
+- **RF020:** Exclusão de tipo de pagamento **(somente administradores podem excluir tipos de pagamento)**.
+- **RF021:** Alteração do perfil de profissional (nome, descrição e tipo de serviço) **(somente o próprio profissional pode alterar seu perfil)**.
 
 ### Requisitos Não Funcionais (RNF)
-- **RNF001:** Suporte para até 20 usuários simultâneos.
-- **RNF002:** Dados criptografados e autenticação segura.
-- **RNF003:** Código modular e bem documentado.
-- **RNF004:** Integração funcional com Google Maps.
-- **RNF005:** Conformidade com a LGPD.
-- **RNF006:** Suporte técnico disponível e documentação atualizada.
+- **RNF001:** Dados criptografados na autenticação e cadastro de senhas.
+- A decidir 
 
 ## Escopo do Projeto
 O sistema atenderá às seguintes regras de negócio:
