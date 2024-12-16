@@ -1,0 +1,80 @@
+        /* Estilo Geral */
+body, html {
+    
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #4A4A4A; /* Texto Escuro */
+}
+
+/* Container principal */
+.admin-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.admin-home-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #4A4A4A; /* Cinza Escuro */
+}
+
+/* Botões da grade */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.admin-button {
+    background-color: #E27BA6; /* Rosa Médio Escuro */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+    background-color: #C25B85; /* Rosa Mais Escuro */
+}
+
+.admin-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.admin-button a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de sair */
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #D97D54; /* Pêssego Médio Escuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #B95C3B; /* Pêssego Mais Intenso */
+}
+
+.logout-button a {
+    text-decoration: none;
+    color: white;
+}

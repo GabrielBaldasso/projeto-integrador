@@ -1,0 +1,154 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Tom suave de pêssego */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e7968b; /* Tom de rosa pêssego */
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container principal */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fffaf0; /* Tom leve e neutro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de cabeçalhos */
+h1, h2 {
+    text-align: center;
+    color: #5a4a42; /* Tom marrom claro para contraste */
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos de formulários */
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5a4a42; /* Mesmo tom do cabeçalho */
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #e6cfc9; /* Rosa suave */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e7968b; /* Rosa pêssego */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos de tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #e6cfc9; /* Rosa suave */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e7968b; /* Rosa pêssego */
+    color: white;
+}
+
+/* Estilos de botões de remoção */
+.remove-btn {
+    background-color: #ff5c5c; /* Vermelho suave */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #d43a3a; /* Tom mais escuro */
+}
+
+/* Estilos de botões */
+.button-container {
+    text-align: center;
+}
+
+.btn-action {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #ff5c5c; /* Vermelho suave */
+}
+
+.btn-danger:hover {
+    background-color: #d43a3a;
+}
+
+.btn-success {
+    background-color: #8cc7a1; /* Verde pastel */
+}
+
+.btn-success:hover {
+    background-color: #6ba87b;
+}
+
+/* Estilos de links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-delete {
+    background-color: #ff5c5c; /* Vermelho suave */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #d43a3a;
+}

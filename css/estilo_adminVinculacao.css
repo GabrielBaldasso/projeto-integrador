@@ -1,0 +1,149 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+header {
+    background-color: #a1746d; /* Tom de marrom rosado */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555; /* Tom neutro */
+}
+
+/* Campo de Busca */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border: 1px solid #b0a9ad; /* Bege claro ajustado */
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a1746d; /* Tom marrom rosado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #8f6460; /* Tom mais escuro para hover */
+}
+
+/* Container da Tabela */
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #a1746d; /* Tom marrom rosado */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4ece8; /* Bege claro */
+}
+
+tr:hover {
+    background-color: #e0d9e0; /* Tom suave de verde claro ajustado */
+}
+
+/* Centralização da coluna Ações */
+td.actions {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Botões */
+.btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-edit {
+    background-color: #7db3a0; /* Verde pastel */
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #6fa493;
+    transform: scale(1.05);
+}
+
+.btn-delete {
+    background-color: #e7968b; /* Rosa pêssego */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #d15454;
+    transform: scale(1.05);
+}
+
+/* Botão de Voltar */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #a1746d; /* Tom marrom rosado */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #8f6460;
+    transform: translateY(-2px);
+}
+
+.centro {
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Fundo rosa pêssego claro */
+}
+
+header {
+    background-color: #e7968b; /* Rosa pêssego */
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fffaf0; /* Fundo branco suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5a4a42; /* Marrom claro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5a4a42; /* Marrom claro */
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #e6cfc9; /* Rosa suave */
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #e7968b; /* Rosa pêssego */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d36e6a; /* Rosa mais intenso */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #a1746d; /* Marrom rosado */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #5a4a42; /* Marrom escuro */
+}

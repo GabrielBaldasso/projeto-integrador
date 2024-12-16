@@ -1,0 +1,21 @@
+.hero {
+            background: url('img/baner2.jpg') center center/cover no-repeat;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .services img {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
