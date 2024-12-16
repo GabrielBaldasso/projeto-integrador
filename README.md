@@ -5,7 +5,7 @@
 **Aluno:** Gabriel Galieta Baldasso  
 
 ## Descrição do Projeto
-O projeto consiste no desenvolvimento de uma plataforma digital para otimizar o agendamento de serviços em um salão de beleza, com duas versões: uma utilizando Java para implementar um sistema CRUD de gerenciamento de dados e outra versão acessível via web. A plataforma permitirá o gerenciamento de horários, serviços, pagamentos e informações do salão, facilitando a interação entre clientes e profissionais. A versão em Java será responsável por manipular os dados, enquanto a versão web utilizará HTML, CSS, PHP e JavaScript para garantir uma experiência interativa e dinâmica.
+O projeto consiste no desenvolvimento de uma plataforma digital para otimizar o agendamento de serviços em um salão de beleza, com duas versões: uma versão acessível via web. A plataforma permitirá o gerenciamento de horários, serviços, pagamentos e informações do salão, facilitando a interação entre clientes e profissionais. A versão web utilizará HTML, CSS, PHP e JavaScript para garantir uma experiência interativa e dinâmica.
 
 ### Principais Funcionalidades
 1. **Cadastro e Login de Usuários:** Registro e autenticação de clientes e profissionais, com segurança de dados.
@@ -29,21 +29,21 @@ Muitos salões ainda utilizam métodos tradicionais de agendamento, como WhatsAp
 
 ## Requisitos do Sistema
 ### Requisitos Funcionais (RF)
-- **RF009:** Cadastro de clientes com dados como CPF, e-mail e telefone.
-- **RF010:** Registro de profissionais com especificação de tipo de serviço.
-- **RF012:** Cadastro de serviços com descrição, tempo e preço.
-- **RF014:** Registro de atendimentos com status (agendado, cancelado, concluído).
-- **RF022:** Exibição de informações do salão e mapa integrado.
-- **RF023:** Notificações para clientes e profissionais.
-- **RF024:** Histórico de atendimentos para os profissionais.
+- **RF001:** Cadastro de clientes com dados como CPF, e-mail e telefone.
+- **RF002:** Registro de profissionais com especificação de tipo de serviço.
+- **RF003:** Cadastro de serviços com descrição, tempo e preço.
+- **RF004:** Registro de atendimentos com status (agendado, cancelado, concluído).
+- **RF005:** Exibição de informações do salão e mapa integrado.
+- **RF006:** Notificações para clientes e profissionais.
+- **RF007:** Histórico de atendimentos para os profissionais.
 
 ### Requisitos Não Funcionais (RNF)
 - **RNF001:** Suporte para até 20 usuários simultâneos.
-- **RNF005:** Dados criptografados e autenticação segura.
-- **RNF008:** Código modular e bem documentado.
-- **RNF010:** Integração funcional com Google Maps.
-- **RNF012:** Conformidade com a LGPD.
-- **RNF014:** Suporte técnico disponível e documentação atualizada.
+- **RNF002:** Dados criptografados e autenticação segura.
+- **RNF003:** Código modular e bem documentado.
+- **RNF004:** Integração funcional com Google Maps.
+- **RNF005:** Conformidade com a LGPD.
+- **RNF006:** Suporte técnico disponível e documentação atualizada.
 
 ## Escopo do Projeto
 O sistema atenderá às seguintes regras de negócio:
@@ -59,7 +59,7 @@ O sistema atenderá às seguintes regras de negócio:
 
 ## Tecnologias Utilizadas
 - Frontend: HTML5, CSS3 e Bootstrap.
-- Backend: java, php, javaScript.
+- Backend: PHP, JavaScript.
 - Banco de Dados: MySQL.
 
 ## Contribuição
@@ -72,4 +72,3 @@ Sinta-se à vontade para contribuir com o projeto enviando sugestões, relatando
 **Contato:** gabrielgbaldasso@gmail.com  
 
 **Professores Orientadores:** Claudia Tupan, João Marcos Ferlini Bento
-
